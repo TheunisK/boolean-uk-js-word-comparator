@@ -10,10 +10,11 @@ if (firstUserEntry.length > secondUserEntry.length) {
 }   else if (firstUserEntry.length === secondUserEntry.length) {
         alert("The words are the same length!");
 }
-// const count = 1;
-// for (let i = 0; i < firstUserEntry.length; i++) {
-//     if (firstUserEntry[i] === " ") {
-//         count++;
-//     }
-//    alert("User1's sentence is " + count + " words long.");
-// }
+let count = 1;
+
+for (let i = 0; i < firstUserEntry.length; i++) {
+    if (firstUserEntry[i] === " ") {
+        count++;
+    }
+}
+console.log("User1's sentence is " + count + " words long.");
